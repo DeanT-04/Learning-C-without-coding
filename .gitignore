@@ -1,0 +1,157 @@
+# Compiled executables
+*.exe
+*.out
+*.app
+*.bin
+
+# Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# IDE and editor files
+.vscode/
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.ncb
+*.aps
+*.plg
+*.opt
+*.clw
+*.tags
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Build directories
+build/
+bin/
+obj/
+debug/
+release/
+Debug/
+Release/
+
+# Log files
+*.log
+
+# Core dumps
+core
+core.*
+
+# Generated documentation
+doc/html/
+doc/latex/
+
+# Test results and reports
+*.gcov
+*.gcda
+*.gcno
+coverage/
+test_results/
+
+# Progress reports with timestamps
+progress_report_*.json
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+!*/Makefile
+CTestTestfile.cmake
+
+# Autotools
+.deps/
+.libs/
+*.la
+*.lo
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.guess
+config.h
+config.h.in
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+libtool
+ltmain.sh
+missing
+stamp-h1
+
+# Valgrind
+*.memcheck
+*.helgrind
+*.drd
+*.massif
+*.cachegrind
+*.callgrind
+
+# Static analysis
+*.scan-build/
