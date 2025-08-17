@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Smart Workflow Orchestrator",
+  "description": "Intelligently triggers appropriate hooks based on completed tasks and project state",
+  "version": "1",
+  "when": {
+    "type": "command",
+    "command": "-hooks"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Analyze file changes and trigger appropriate workflow hooks based on what was modified:\n\n1. **Change Analysis**:\n   - Detect what type of files were modified (code, docs, tasks, config)\n   - Assess the scope and impact of changes\n   - Identify which hooks should be triggered next\n   - Check for task completion patterns in tasks.md\n\n2. **Workflow Decision Tree**:\n   \n   **If tasks.md Updated (Task Completion):**\n   - Check for newly completed tasks ([x] markers)\n   - Trigger: Documentation Generator → Automated Testing → Git Workflow Optimizer\n   \n   **If C Code Files Modified:**\n   - Trigger: Code Quality Check → Automated Testing → Performance Analyzer → Documentation Generator\n   \n   **If New Lesson Created:**\n   - Trigger: Project Scaffolder → Build System Optimizer → Documentation Generator → Automated Testing\n   \n   **If README/Documentation Modified:**\n   - Trigger: Documentation Generator → Git Workflow Optimizer\n   \n   **If Multiple Files Changed:**\n   - Trigger: Comprehensive workflow (all relevant hooks in optimal order)\n\n3. **Smart Execution**:\n   - Run hooks in logical dependency order\n   - Skip hooks if no relevant changes detected\n   - Provide progress updates and summaries\n   - Handle hook failures gracefully\n   - Avoid duplicate executions within short time windows\n\n4. **Task Completion Detection**:\n   - Scan tasks.md for newly completed items\n   - Identify milestone completions\n   - Trigger celebration and progress updates\n   - Update project status documentation\n\n5. **Workflow Optimization**:\n   - Learn from previous executions\n   - Suggest workflow improvements\n   - Identify bottlenecks and optimize timing\n   - Provide workflow completion summary\n\nExecute the appropriate workflow based on the detected changes and task completions."
+  }
+}

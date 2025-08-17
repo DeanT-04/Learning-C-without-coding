@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Smart Code Formatter",
+  "description": "Automatically formats code according to project standards",
+  "version": "1",
+  "when": {
+    "type": "command",
+    "command": "-hooks"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Format the code file according to project standards:\n\n1. **Language-Specific Formatting**:\n   - Apply proper indentation (4 spaces for C, 2 for JS/JSON)\n   - Fix bracket placement and spacing\n   - Align function parameters and arguments\n   - Format variable declarations consistently\n\n2. **Code Style Standards**:\n   - Ensure consistent naming conventions\n   - Fix spacing around operators and keywords\n   - Organize imports/includes properly\n   - Remove trailing whitespace\n\n3. **Documentation Formatting**:\n   - Format comments and docstrings\n   - Ensure proper markdown formatting for .md files\n   - Align inline comments consistently\n\n4. **Structure Improvements**:\n   - Group related functions/variables\n   - Separate logical sections with appropriate spacing\n   - Ensure proper header guards for C/C++ headers\n\n5. **Cleanup**:\n   - Remove unnecessary blank lines\n   - Fix inconsistent line endings\n   - Remove debug print statements\n\nApply formatting changes directly to improve code readability and consistency."
+  }
+}

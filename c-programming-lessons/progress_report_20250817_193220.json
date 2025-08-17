@@ -1,0 +1,198 @@
+{
+  "generated_at": "2025-08-17T19:32:20.009250",
+  "progress_data": {
+    "overview": {
+      "total_lessons": 24,
+      "completed_lessons": 24,
+      "completion_rate": 100.0,
+      "total_files": 124
+    },
+    "difficulty_levels": {
+      "basics": {
+        "completed": 6,
+        "total": 6,
+        "expected": 6,
+        "completion_rate": 100.0
+      },
+      "intermediate": {
+        "completed": 6,
+        "total": 6,
+        "expected": 6,
+        "completion_rate": 100.0
+      },
+      "pro": {
+        "completed": 6,
+        "total": 6,
+        "expected": 6,
+        "completion_rate": 100.0
+      },
+      "master": {
+        "completed": 6,
+        "total": 6,
+        "expected": 6,
+        "completion_rate": 100.0
+      }
+    },
+    "lesson_details": {
+      "basics": [
+        {
+          "name": "lesson-01-hello-world",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-02-variables-types",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-03-operators",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-04-control-structures",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-05-loops",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 5
+        },
+        {
+          "name": "lesson-06-functions",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        }
+      ],
+      "intermediate": [
+        {
+          "name": "lesson-01-pointers",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-02-arrays-strings",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-03-advanced-functions",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-04-scope-storage",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-05-preprocessor",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 6
+        },
+        {
+          "name": "lesson-06-file-io",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        }
+      ],
+      "pro": [
+        {
+          "name": "lesson-01-structures-unions",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-02-dynamic-memory",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-03-advanced-file-handling",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-04-data-structures",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 14
+        },
+        {
+          "name": "lesson-05-function-pointers",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-06-multi-file-projects",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 15
+        }
+      ],
+      "master": [
+        {
+          "name": "lesson-01-advanced-algorithms",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-02-system-programming",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-03-memory-optimization",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-04-bit-manipulation",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-05-advanced-debugging",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 4
+        },
+        {
+          "name": "lesson-06-performance-analysis",
+          "complete": true,
+          "has_executable": true,
+          "file_count": 8
+        }
+      ]
+    },
+    "code_quality": {
+      "total_c_files": 30,
+      "total_lines": 9632,
+      "avg_lines_per_file": 321.06666666666666,
+      "comment_rate": 93.33333333333333,
+      "header_rate": 100.0
+    }
+  }
+}

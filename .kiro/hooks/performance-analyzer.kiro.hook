@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Performance Analyzer",
+  "description": "Analyzes code performance and suggests optimizations",
+  "version": "1",
+  "when": {
+    "type": "command",
+    "command": "-hooks"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Perform comprehensive performance analysis:\n\n1. **Algorithm Analysis**:\n   - Analyze time and space complexity of algorithms\n   - Identify inefficient loops and recursive calls\n   - Suggest more efficient algorithms where applicable\n   - Review data structure choices for performance impact\n\n2. **Memory Performance**:\n   - Analyze memory allocation patterns\n   - Identify memory leaks and excessive allocations\n   - Suggest memory pool or caching strategies\n   - Review stack vs heap usage optimization\n\n3. **CPU Performance**:\n   - Identify CPU-intensive operations\n   - Suggest compiler optimization opportunities\n   - Review branch prediction and cache efficiency\n   - Analyze function call overhead\n\n4. **I/O Performance**:\n   - Review file I/O operations for efficiency\n   - Suggest buffering and batching improvements\n   - Analyze network I/O patterns (if applicable)\n   - Check for blocking vs non-blocking operations\n\n5. **Compilation Optimizations**:\n   - Recommend compiler flags for performance\n   - Suggest profile-guided optimization strategies\n   - Review link-time optimization opportunities\n   - Analyze binary size and startup performance\n\n6. **Benchmarking Setup**:\n   - Create performance benchmarks for critical functions\n   - Set up automated performance regression testing\n   - Generate performance reports and metrics\n   - Compare performance across different implementations\n\n7. **Platform-Specific Optimizations**:\n   - Windows-specific performance considerations\n   - Compiler-specific optimization techniques\n   - Hardware-specific optimizations where applicable\n\nProvide detailed analysis with specific optimization recommendations and benchmark code."
+  }
+}

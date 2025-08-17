@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Dependency Manager",
+  "description": "Manages project dependencies and keeps them updated",
+  "version": "1",
+  "when": {
+    "type": "command",
+    "command": "-hooks"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Manage project dependencies comprehensively:\n\n1. **Dependency Analysis**:\n   - Scan all project files for dependency usage\n   - Identify missing or outdated dependencies\n   - Check for unused or redundant dependencies\n   - Analyze dependency conflicts and compatibility\n\n2. **Security Scanning**:\n   - Check dependencies for known vulnerabilities\n   - Suggest secure alternatives for problematic packages\n   - Review dependency licenses for compliance\n   - Identify supply chain security risks\n\n3. **Version Management**:\n   - Suggest dependency version updates\n   - Check for breaking changes in newer versions\n   - Create dependency lock files where appropriate\n   - Manage version pinning strategies\n\n4. **Build Dependencies**:\n   - Review compiler and build tool requirements\n   - Check for missing system dependencies\n   - Validate cross-platform dependency availability\n   - Optimize build dependency chains\n\n5. **Documentation Updates**:\n   - Update installation instructions\n   - Document dependency requirements clearly\n   - Create dependency installation scripts\n   - Generate dependency graphs and documentation\n\n6. **Platform-Specific Dependencies**:\n   - Handle Windows-specific library requirements\n   - Manage compiler-specific dependencies\n   - Check for platform compatibility issues\n   - Suggest alternative dependencies for different platforms\n\n7. **Cleanup and Optimization**:\n   - Remove unused dependencies\n   - Consolidate similar dependencies\n   - Optimize dependency loading and linking\n   - Reduce overall dependency footprint\n\nProvide detailed dependency management recommendations with installation commands and configuration updates."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "name": "Documentation Sync",
+  "description": "Listens to source code changes and updates documentation in README.md and docs folder",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.c",
+      "*.py",
+      "*.bat",
+      "*.json",
+      "*.md",
+      "c-programming-lessons/**/*.c",
+      "c-programming-lessons/**/*.py",
+      "c-programming-lessons/**/*.bat",
+      "c-programming-lessons/**/*.json"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Source files have been modified. Please review the changes and update the documentation accordingly. Update the README.md file and any relevant documentation in the docs folder (if it exists) to reflect the current state of the codebase. Focus on keeping documentation accurate and up-to-date with the latest code changes."
+  }
+}

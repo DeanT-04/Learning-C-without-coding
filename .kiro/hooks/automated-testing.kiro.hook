@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Automated Testing Suite",
+  "description": "Runs tests and generates test reports for the project",
+  "version": "1",
+  "when": {
+    "type": "command",
+    "command": "-hooks"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Execute comprehensive testing for the project:\n\n1. **Test Discovery**:\n   - Identify all test files and test suites\n   - Check for missing test coverage areas\n   - Validate test file naming conventions\n\n2. **Compilation Testing** (for C projects):\n   - Compile all source files with strict warnings\n   - Check for compilation errors and warnings\n   - Verify cross-platform compatibility\n\n3. **Unit Testing**:\n   - Run existing unit tests\n   - Check test coverage\n   - Identify untested functions/modules\n\n4. **Integration Testing**:\n   - Test module interactions\n   - Verify build system functionality\n   - Check Makefile targets\n\n5. **Functional Testing**:\n   - Test program execution with sample inputs\n   - Verify expected outputs\n   - Check error handling scenarios\n\n6. **Performance Testing**:\n   - Basic performance benchmarks\n   - Memory usage analysis\n   - Identify potential bottlenecks\n\n7. **Test Report Generation**:\n   - Create summary of test results\n   - Highlight failing tests and issues\n   - Suggest improvements for test coverage\n\nExecute tests and provide detailed results with recommendations."
+  }
+}

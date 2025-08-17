@@ -1,0 +1,96 @@
+{
+  "test_configuration": {
+    "version": "1.0",
+    "description": "C Programming Lessons Test Configuration",
+    "compiler_settings": {
+      "default_compiler": "gcc",
+      "compiler_flags": ["-Wall", "-Wextra", "-std=c11"],
+      "debug_flags": ["-g", "-DDEBUG"],
+      "optimization_flags": ["-O2"],
+      "warning_as_error": false
+    },
+    "test_categories": {
+      "compilation": {
+        "enabled": true,
+        "timeout_seconds": 30,
+        "required_files": ["main.c", "Makefile", "README.md"]
+      },
+      "code_quality": {
+        "enabled": true,
+        "check_indentation": true,
+        "check_naming_conventions": true,
+        "check_memory_management": true,
+        "check_error_handling": true
+      },
+      "structure_validation": {
+        "enabled": true,
+        "check_directory_structure": true,
+        "check_file_naming": true,
+        "check_lesson_progression": true
+      }
+    },
+    "difficulty_levels": {
+      "basics": {
+        "expected_lessons": 6,
+        "lesson_prefix": "lesson-",
+        "topics": [
+          "hello-world",
+          "variables-types", 
+          "operators",
+          "control-structures",
+          "loops",
+          "functions"
+        ]
+      },
+      "intermediate": {
+        "expected_lessons": 6,
+        "lesson_prefix": "lesson-",
+        "topics": [
+          "pointers",
+          "arrays-strings",
+          "advanced-functions",
+          "scope-storage",
+          "preprocessor",
+          "file-io"
+        ]
+      },
+      "pro": {
+        "expected_lessons": 6,
+        "lesson_prefix": "lesson-",
+        "topics": [
+          "structures-unions",
+          "dynamic-memory",
+          "advanced-file-handling",
+          "data-structures",
+          "function-pointers",
+          "multi-file-projects"
+        ]
+      },
+      "master": {
+        "expected_lessons": 6,
+        "lesson_prefix": "lesson-",
+        "topics": [
+          "advanced-algorithms",
+          "system-programming",
+          "memory-optimization",
+          "bit-manipulation",
+          "advanced-debugging",
+          "performance-analysis"
+        ]
+      }
+    },
+    "quality_standards": {
+      "max_function_length": 50,
+      "max_line_length": 100,
+      "required_comments": true,
+      "consistent_indentation": 4,
+      "naming_convention": "snake_case"
+    },
+    "documentation_requirements": {
+      "readme_min_length": 200,
+      "code_examples_required": true,
+      "concept_explanation_required": true,
+      "next_steps_required": true
+    }
+  }
+}

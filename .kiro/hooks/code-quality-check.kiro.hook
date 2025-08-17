@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Code Quality & Standards Check",
+  "description": "Reviews code for quality, standards compliance, and best practices",
+  "version": "1",
+  "when": {
+    "type": "command",
+    "command": "-hooks"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Perform a comprehensive code quality review on the modified file:\n\n1. **Syntax & Style**:\n   - Check for proper indentation and formatting\n   - Verify naming conventions (snake_case for C, camelCase for JS, etc.)\n   - Ensure consistent code style throughout\n\n2. **Best Practices**:\n   - Review for language-specific best practices\n   - Check for proper error handling\n   - Validate memory management (for C/C++)\n   - Look for potential security vulnerabilities\n\n3. **Code Structure**:\n   - Assess function/method length and complexity\n   - Check for proper separation of concerns\n   - Validate proper use of comments and documentation\n\n4. **Performance**:\n   - Identify potential performance issues\n   - Suggest optimizations where appropriate\n   - Check for unnecessary complexity\n\n5. **Maintainability**:\n   - Assess code readability\n   - Check for code duplication\n   - Validate proper abstraction levels\n\nProvide specific suggestions for improvement with code examples where helpful."
+  }
+}

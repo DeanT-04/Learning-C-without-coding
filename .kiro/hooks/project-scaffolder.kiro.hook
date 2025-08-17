@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Smart Project Scaffolder",
+  "description": "Creates project structure and boilerplate code intelligently",
+  "version": "1",
+  "when": {
+    "type": "command",
+    "command": "-hooks"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Generate intelligent project scaffolding:\n\n1. **Project Structure Creation**:\n   - Analyze project requirements and create appropriate directory structure\n   - Generate standard project files (README, LICENSE, .gitignore)\n   - Create build system files (Makefile, CMakeLists.txt, package.json)\n   - Set up testing framework structure\n\n2. **Boilerplate Code Generation**:\n   - Generate main application entry points\n   - Create header files with proper guards\n   - Generate function stubs and interfaces\n   - Create example implementations and templates\n\n3. **Configuration Files**:\n   - Generate IDE configuration files\n   - Create linter and formatter configurations\n   - Set up CI/CD pipeline templates\n   - Generate environment and build configurations\n\n4. **Documentation Templates**:\n   - Create comprehensive README templates\n   - Generate API documentation templates\n   - Create contributing guidelines\n   - Set up changelog and release note templates\n\n5. **Development Tools Setup**:\n   - Configure debugging setups\n   - Create development scripts and utilities\n   - Set up code quality tools integration\n   - Generate testing and benchmarking templates\n\n6. **Learning Project Specific** (for C lessons):\n   - Generate lesson template structures\n   - Create progressive difficulty frameworks\n   - Set up example code templates\n   - Generate assessment and exercise templates\n\nAnalyze the current project context and generate appropriate scaffolding that matches the project's goals and requirements."
+  }
+}

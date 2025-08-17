@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Build System Optimizer",
+  "description": "Optimizes and maintains build configurations and dependencies",
+  "version": "1",
+  "when": {
+    "type": "command",
+    "command": "-hooks"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Optimize and maintain the build system:\n\n1. **Makefile Optimization**:\n   - Review and optimize Makefile targets\n   - Add missing standard targets (clean, install, test, debug)\n   - Improve compilation flags and optimization settings\n   - Add dependency tracking and incremental builds\n\n2. **Dependency Management**:\n   - Check for missing or outdated dependencies\n   - Validate library linking and include paths\n   - Optimize compilation order and parallel builds\n   - Add cross-platform compatibility checks\n\n3. **Build Performance**:\n   - Identify compilation bottlenecks\n   - Suggest precompiled headers where beneficial\n   - Optimize compiler flags for development vs production\n   - Add caching strategies for faster rebuilds\n\n4. **Build Validation**:\n   - Test build system on different configurations\n   - Verify clean builds work correctly\n   - Check for proper error handling in build scripts\n   - Validate installation and packaging processes\n\n5. **Automation Improvements**:\n   - Add automated build verification\n   - Create build scripts for different environments\n   - Integrate with testing and deployment pipelines\n   - Add build status reporting and logging\n\n6. **Windows-Specific Optimizations**:\n   - Ensure compatibility with Windows build tools\n   - Optimize for MinGW, MSVC, and other Windows compilers\n   - Handle Windows-specific path and library issues\n\nProvide specific improvements and updated build configurations."
+  }
+}

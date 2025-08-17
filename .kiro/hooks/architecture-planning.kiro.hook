@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Architecture Planning Assistant",
+  "description": "Analyzes project structure and suggests architectural improvements",
+  "version": "1",
+  "when": {
+    "type": "command",
+    "command": "-hooks"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Analyze the current project structure and provide architectural recommendations:\n\n1. Review the existing directory structure and file organization\n2. Identify potential architectural improvements or patterns\n3. Suggest better organization for scalability and maintainability\n4. Check for missing architectural components (docs, tests, configs)\n5. Recommend design patterns that would benefit this project\n6. Validate that the current structure follows best practices\n\nFocus on:\n- Code organization and modularity\n- Separation of concerns\n- Dependency management\n- Build system optimization\n- Documentation structure\n- Testing architecture\n\nProvide specific, actionable recommendations with examples."
+  }
+}

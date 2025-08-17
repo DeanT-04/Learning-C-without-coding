@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Documentation Generator",
+  "description": "Generates and updates project documentation automatically",
+  "version": "1",
+  "when": {
+    "type": "command",
+    "command": "-hooks"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Generate comprehensive documentation for the project:\n\n1. **Code Documentation**:\n   - Generate function/method documentation from code\n   - Create API documentation for public interfaces\n   - Add missing inline comments for complex logic\n   - Generate header documentation for C files\n\n2. **Project Documentation**:\n   - Update README.md with current project status\n   - Generate installation and build instructions\n   - Create usage examples and tutorials\n   - Document project structure and organization\n\n3. **Learning Materials** (for C lessons project):\n   - Generate lesson summaries and learning objectives\n   - Create cross-references between related lessons\n   - Update progress tracking documentation\n   - Generate concept glossary and reference materials\n\n4. **Technical Documentation**:\n   - Document build system and dependencies\n   - Create troubleshooting guides\n   - Generate changelog and version history\n   - Document coding standards and conventions\n\n5. **Auto-Generated Content**:\n   - Create table of contents for documentation\n   - Generate file trees and project structure diagrams\n   - Update links and references automatically\n   - Create index of functions, classes, and modules\n\nFocus on creating clear, concise, and helpful documentation that enhances the learning experience."
+  }
+}

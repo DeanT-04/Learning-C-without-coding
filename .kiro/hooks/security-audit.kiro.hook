@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Security Audit Assistant",
+  "description": "Performs security analysis and identifies potential vulnerabilities",
+  "version": "1",
+  "when": {
+    "type": "command",
+    "command": "-hooks"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Conduct a comprehensive security audit of the codebase:\n\n1. **Memory Safety** (C/C++ focus):\n   - Check for buffer overflows and underflows\n   - Identify potential null pointer dereferences\n   - Review memory allocation and deallocation patterns\n   - Look for use-after-free vulnerabilities\n\n2. **Input Validation**:\n   - Review all user input handling\n   - Check for proper bounds checking\n   - Validate format string usage\n   - Identify injection vulnerabilities\n\n3. **Code Security Patterns**:\n   - Review error handling for information leakage\n   - Check for hardcoded credentials or sensitive data\n   - Validate proper use of cryptographic functions\n   - Review file handling for path traversal issues\n\n4. **Compilation Security**:\n   - Recommend security-focused compiler flags\n   - Suggest static analysis tools integration\n   - Check for deprecated or unsafe function usage\n   - Validate proper warning configurations\n\n5. **Best Practices Compliance**:\n   - Review against OWASP guidelines\n   - Check for secure coding standard compliance\n   - Validate proper authentication and authorization\n   - Review logging and monitoring practices\n\n6. **Educational Security** (for learning projects):\n   - Identify common security mistakes for teaching\n   - Create examples of secure vs insecure code\n   - Document security best practices for learners\n   - Suggest security-focused exercises\n\nProvide detailed findings with remediation suggestions and secure code examples."
+  }
+}

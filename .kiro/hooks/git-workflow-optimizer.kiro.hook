@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Git Workflow Optimizer",
+  "description": "Optimizes Git workflow and maintains repository health",
+  "version": "1",
+  "when": {
+    "type": "command",
+    "command": "-hooks"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Optimize Git workflow and repository management:\n\n1. **Repository Health Check**:\n   - Analyze commit history and patterns\n   - Check for large files or binary bloat\n   - Review branch structure and naming conventions\n   - Identify orphaned or stale branches\n\n2. **Commit Quality Analysis**:\n   - Review commit message quality and conventions\n   - Check for atomic commits and proper granularity\n   - Identify commits that should be squashed or split\n   - Suggest commit message improvements\n\n3. **Branch Management**:\n   - Optimize branching strategy for the project\n   - Suggest branch naming conventions\n   - Identify merge vs rebase opportunities\n   - Clean up merged and obsolete branches\n\n4. **Git Configuration Optimization**:\n   - Generate .gitignore for the project type\n   - Set up Git hooks for quality control\n   - Configure Git attributes for file handling\n   - Optimize Git settings for performance\n\n5. **Workflow Automation**:\n   - Create Git aliases for common operations\n   - Set up pre-commit hooks for code quality\n   - Generate commit message templates\n   - Create branch protection and review workflows\n\n6. **Collaboration Improvements**:\n   - Set up pull request templates\n   - Create issue templates and labels\n   - Generate contributing guidelines\n   - Set up automated code review triggers\n\n7. **Repository Documentation**:\n   - Update repository README with Git workflow\n   - Document branching and release strategies\n   - Create Git best practices guide\n   - Generate repository maintenance procedures\n\nProvide specific Git configuration improvements and workflow optimizations."
+  }
+}
